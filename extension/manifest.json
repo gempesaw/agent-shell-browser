@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "agent-shell-browser",
+  "version": "0.1.0",
+  "description": "Send a selection or page to an agent-shell session in Emacs.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm/SsT/XDZiJZ+WIz1WcxAD9zucFob+baKbJ+JLVtQVVnWZhGbGo4iIZRIePRXag2LaTQ6lUDAkdFlBOkrNJMTyDIaZv2AB5clVo+rs2DMhP1Qtof848ar0dNHipSEwmQ0DYwJ3UeD+xSu/n7Dzo+1qWGDAv0rS6I01WaLD/ERAXpbl3LqArMw1srwxV6hUZjWhpfbhd69p+XSnBr8+0etby0OuhAhiyOXjPH77eNXTGDV5ZQV9SDjJkzN+MRHIE1wPHBTsXuu6LsqqUpBd6NPIV7xlSZgXM7OH74YwXED9YFJKUKFYw+KNx5eRFUZ0gFD1OS2oSosSEpOmvVUgSZpwIDAQAB",
+  "permissions": ["contextMenus", "scripting", "activeTab", "nativeMessaging", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Send to agent-shell"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "agent-shell-browser@gempesaw.github.io",
+      "strict_min_version": "128.0"
+    }
+  }
+}

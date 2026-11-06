@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Send to agent-shell</title>
+  <link rel="stylesheet" href="picker.css">
+</head>
+<body>
+  <header>
+    <div id="source"></div>
+    <details>
+      <summary id="content-summary"></summary>
+      <textarea id="content" spellcheck="false"></textarea>
+    </details>
+  </header>
+
+  <textarea id="instruction" rows="3" placeholder="Instruction (optional)"></textarea>
+  <input id="filter" type="search" placeholder="Filter sessions" autocomplete="off">
+
+  <ol id="sessions"></ol>
+  <div id="status"></div>
+
+  <footer>
+    <span class="hint">C-n/C-p move · ⏎ / ⌘⏎ stage · ⇧⌘⏎ send &amp; submit · Esc close</span>
+    <span class="buttons">
+      <button id="stage">Stage</button>
+      <button id="submit">Send &amp; submit</button>
+    </span>
+  </footer>
+
+  <script src="picker.js"></script>
+</body>
+</html>
