@@ -1,6 +1,6 @@
 ;;; agent-shell-browser.el --- Send browser content to agent-shell sessions -*- lexical-binding: t; -*-
 
-;; Author: Daniel Gempesaw <gempesaw@modular.com>
+;; Author: Daniel Gempesaw <gempesaw@gmail.com>
 ;; URL: https://github.com/gempesaw/agent-shell-browser
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "29.1") (agent-shell "0.1.0"))

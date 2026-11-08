@@ -1,6 +1,6 @@
 ;;; agent-shell-browser-dashboard.el --- Session summaries in the browser picker -*- lexical-binding: t; -*-
 
-;; Author: Daniel Gempesaw <gempesaw@modular.com>
+;; Author: Daniel Gempesaw <gempesaw@gmail.com>
 ;; URL: https://github.com/gempesaw/agent-shell-browser
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "29.1") (agent-shell-browser "0.1.0"))
