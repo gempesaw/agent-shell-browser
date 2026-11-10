@@ -36,8 +36,9 @@ Works in Chrome and other Chromium browsers, and Firefox 128+.
    - Chrome: `chrome://extensions` → Developer mode → Load unpacked →
      `extension/`. The `key` in `manifest.json` pins the id to
      `hofnfmddfbgnkmkamefcgopabhcpnjlo`, which `install.sh` allows.
-   - Firefox: `about:debugging` → This Firefox → Load Temporary Add-on →
-     `extension/manifest.json`.
+   - Firefox: `make firefox`, then `about:debugging` → This Firefox → Load
+     Temporary Add-on → `build/firefox/manifest.json`. Firefox needs
+     `background.scripts`, which Chrome rejects in MV3.
 
 ## Use
 
